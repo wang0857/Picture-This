@@ -12,6 +12,7 @@ body {
   grid-template-columns: 1fr;
   align-items: center;
   background-color: cadetblue;
+  overflow: hidden;
 }
 
 .title {
@@ -31,6 +32,7 @@ h4 {
 
 img {
   display: block;
+  width: 100%;
 }
 
 @media (min-width: 960px) {
